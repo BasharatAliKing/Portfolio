@@ -346,17 +346,33 @@ footer{
 }
 
 @media (max-width:576px){
+   .container{
+    padding: 0px;
+  }
+  #header img{
+    width: 25%;
+    margin-left: 20px;
+  }
+ #header button{
+  position: absolute;
+  right: 10px;
+ }
   h1{
     font-size: 40px;
   }
-  #header img{
-    width: 100px;
-  }
+ 
   #home{
-   
+   width: 90%;
     margin-left: 10px;
   }
-  #home h1{
+  #home span{
+    font-size: 30px;
+  }
+   #home .animated-item{
+    width: 100%;
+    font-size: 33px;
+  } 
+   #home h1{
     font-size: 40px;
     text-align: start;
   }
@@ -367,6 +383,7 @@ footer{
   #home span{
     font-size: 40px;
   }
+ 
   #home p{
     margin-top: 20px;
     text-align: start;
@@ -374,6 +391,9 @@ footer{
   #home button{
     padding: 10px 30px;
     font-size:20px
+  }
+  #work{
+    padding-left: 15px;
   }
   #work h1{
     font-size: 40px;
@@ -383,10 +403,13 @@ footer{
     font-size: 20px;
   }
   #work ul li a{
-    font-size: 19px;
+    font-size: 18px;
+    padding-left: 0px;
   }
   #about{
     text-align: center;
+    /* width: 95%; */
+    padding-left: 15px;
   }
   #about h1{
     font-size: 40px;
@@ -404,7 +427,24 @@ footer{
     margin-top: 20px;
     font-size: 25px;
 }
-  
+#about .ali{
+  padding: 0px;
+}
+ #about .col-md-3 {
+  width: 100%;
+  padding: 0px;
+ }
+ #about #image{
+  padding: 0px;
+ }
+ #about #image img{
+  padding: 5px;
+ }
+
+#contact{
+  /* width: 95%; */
+  padding-left: 15px;
+}
   #contact h1{
     font-size: 40px;
   }
@@ -417,6 +457,6 @@ footer{
   }
  footer{
    font-size: 15px;
- }
+ } 
  
 }

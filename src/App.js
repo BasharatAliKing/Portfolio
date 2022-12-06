@@ -60,7 +60,7 @@ function App(){
                                 <button data-aos="fade-up"
      data-aos-duration="2000"><a  href="#work">VIEW MY WORK</a></button>
                             </div>
-                            <div data-aos="fade-left"
+                            <div data-aos="fade-left" 
      data-aos-duration="3000" className="col-lg-3 col-md-3"><img src={process.env.PUBLIC_URL + "/me.jpg"} alt="My-Pic" width="250px" />
                             </div>
                         </div>
