@@ -322,32 +322,5 @@ footer{
   
   }
 }
-@media (max-width:768px){
-  #home {
-    text-align: center;
-  }
-  #home img{
-    margin-top: 40px;
-  }
-  #about{
-    text-align: center;
-  }
-  #about h1{
-    text-align: start;
-  }
-  #about .ali{
-    font-size: 22px;
-    margin-top: 10px;
-  }
-  #about p{
-    text-align: start;
-  }
-  #about h4{
-    text-align: start;
-  }
- #about .ali::after{
-   margin: auto;
-   margin-top: 5px;
- }
-}
+
 
