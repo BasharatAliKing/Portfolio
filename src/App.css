@@ -357,8 +357,9 @@ footer{
  }
 
  #home{
-  width: 90%;
+  /* width: 100%; */
    margin-left: 10px;
+   overflow:hidden;
  }
  #home span{
    font-size: 30px;
@@ -388,6 +389,7 @@ footer{
    font-size:20px
  }
  #work{
+  overflow: hidden;
    padding-left: 15px;
  }
  #work h1{
@@ -405,6 +407,7 @@ footer{
    text-align: center;
    /* width: 95%; */
    padding-left: 15px;
+   overflow: hidden;
  }
  #about h1{
    font-size: 40px;
@@ -435,6 +438,7 @@ footer{
 #about #image img{
  padding: 5px;
 }
+
 
 #contact{
  /* width: 95%; */
