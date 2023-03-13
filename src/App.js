@@ -48,7 +48,7 @@ function App(){
                                 <h2 data-aos="fade-down"  data-aos-duration="1000" >Hey, I Am </h2>
                                 <h1 data-aos="fade-up"  data-aos-duration="1000" class="animated animated-text">
                                     <span data-aos="fade-right"  data-aos-duration="1000" class="hey">Hey folks, I'm</span>
-                                    <div class="animated-info">
+                                    <div id="hey" class="animated-info">
                                         <span class="animated-item">Basharat Ali</span>
                                         <span class="animated-item">Developer</span>
                                         <span class="animated-item">UI Specialist</span>
@@ -135,13 +135,15 @@ function App(){
                                     <div className="col-md-5">
                                         <h3 data-aos="fade-down"  data-aos-duration="1000" className='mt-5'>Tools | Work with</h3>
                                     </div>
-                                    <div id='image' className="col-lg-8 col-md-12 mt-4">
+                                    <div id='image' className="col-lg-10 col-md-12 mt-4">
                                         <img data-aos="fade-right"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/vscode-logo.png"} alt="" />
                                         <img data-aos="fade-up"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/html-5.png"} alt="" />
                                         <img data-aos="fade-up"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/css-3.png"} alt="" />
                                         <img data-aos="fade-down"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/js-logo.png"} alt="" />
                                         <img data-aos="fade-up"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/bootstrap-logo.png"} alt="" />
                                         <img data-aos="fade-left"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/logo512.png"} alt="" />
+                                        <img data-aos="fade-left"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/nodelogo.png"} alt="" />
+                                        <img id="mongo" data-aos="fade-left"  data-aos-duration="1000" src={process.env.PUBLIC_URL + "/mongologo.png"} alt="my-Pic" />
                                     </div>
                                
                             </div>
