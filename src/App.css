@@ -443,6 +443,7 @@ footer{
 #contact{
  /* width: 95%; */
  padding-left: 15px;
+ overflow: hidden;
 }
  #contact h1{
    font-size: 40px;
