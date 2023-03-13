@@ -332,6 +332,7 @@ footer{
 @media (max-width:576px){
   .container{
    padding: 0px;
+   margin: 0px;
  }
  #header img{
    width: 25%;
