@@ -330,6 +330,9 @@ footer{
      }
 }
 @media (max-width:576px){
+  #header{
+    overflow: hidden;
+  }
   .container{
    padding: 0px;
   
@@ -342,6 +345,9 @@ footer{
  }
  #about .container{
   margin: 0px;
+  text-align: center;
+ }
+ #about h1{
   text-align: start;
  }
  #header img{
@@ -357,7 +363,7 @@ footer{
  }
 
  #home{
-  /* width: 100%; */
+  width: 97%;
    margin-left: 10px;
    overflow:hidden;
  }
@@ -427,6 +433,8 @@ footer{
 }
 #about .ali{
  padding: 0px;
+ text-align: start;
+ margin-left: 100px;
 }
 #about .col-md-3 {
  width: 100%;
@@ -438,7 +446,13 @@ footer{
 #about #image img{
  padding: 5px;
 }
-
+#about #image #mongo {
+  width: 40%;
+}
+#about p{
+  text-align: start;
+  width: 99%;
+}
 
 #contact{
  /* width: 95%; */
