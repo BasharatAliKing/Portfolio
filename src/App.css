@@ -212,13 +212,17 @@ body{
 #work p{
   font-size: 22px;
 }
-#work ul li a{
+#work img{
+  width: 95%;
+  margin-top: 20px;
+}
+/* #work ul li a{
     color: rgb(178, 178, 238);
     font-size: 25px;
 }
 #work ul li a:hover{
     color: blue;
-}
+} */
 #about{
     margin-top: 100px;
 }

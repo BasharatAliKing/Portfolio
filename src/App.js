@@ -76,21 +76,22 @@ function App(){
                             <div className="col">
                                 <h1  data-aos="fade-right"  data-aos-duration="1000">Work</h1>
                             </div>
-                            <p data-aos="fade-up"  data-aos-duration="1000">A Cross sectoin off my recent projects and works so please check it.</p>
-                            <ul id="links" className='list-unstyled'>
-
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-tesla.netlify.app/">https://bdking-tesla.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-pocketcoin.netlify.app/">https://bdking-pocketcoin.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-ayurved.netlify.app/">https://bdking-ayurved.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-plants.netlify.app/">https://bdking-plants.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-burgershouse.netlify.app/">https://bdking-burgershouse.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdkingonline-meals.netlify.app/">https://bdkingonline-meals.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-sktcards.netlify.app/">https://bdking-sktcards.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-kindergarten.netlify.app/">https://bdking-kindergarten.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-sktgold.netlify.app/">https://bdking-sktgold.netlify.app/</a></li>
-                                <li className='nav-item' data-aos="fade-up"  data-aos-duration="1000"><a className='nav-link' href="https://bdking-extremesports.netlify.app/">https://bdking-extremesports.netlify.app/</a></li>
-
-                                 </ul>
+                            <p data-aos="fade-up"  data-aos-duration="1000">A Cross sectoin off my recent projects and works so please just Click on to check it.</p>
+                                <div className="col-md-12">
+                                    <div className="row">
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-tesla.netlify.app/"><img src={process.env.PUBLIC_URL+"./tesla.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-pocketcoin.netlify.app/"><img src={process.env.PUBLIC_URL+"./pocketcoin.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-burgerhouse.netlify.app/"><img src={process.env.PUBLIC_URL+"./burger.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-plants.netlify.app/"><img src={process.env.PUBLIC_URL+"./plants.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-sktgold.netlify.app/"><img src={process.env.PUBLIC_URL+"./gold.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-kindergarten.netlify.app/"><img src={process.env.PUBLIC_URL+"./altanvee.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-sktcards.netlify.app/"><img src={process.env.PUBLIC_URL+"./cards.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-netflix.netlify.app/"><img src={process.env.PUBLIC_URL+"./netflix.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdkingwarmachines.netlify.app/"><img src={process.env.PUBLIC_URL+"./war.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-ecowebportals.netlify.app/"><img src={process.env.PUBLIC_URL+"./eco.jpg"} alt="" /></a></div>
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdkingvivagames.netlify.app/"><img src={process.env.PUBLIC_URL+"./viva.jpg"} alt="" /></a></div>
+                                    </div>
+                                </div>
                             <div className=" col-12">
 
                             </div>
