@@ -79,16 +79,16 @@ function App(){
                             <p data-aos="fade-up"  data-aos-duration="1000">A Cross sectoin off my recent projects and works so please just Click on to check it.</p>
                                 <div className="col-md-12">
                                     <div className="row">
+                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-fypfinal.netlify.app/"><img src={process.env.PUBLIC_URL+"./fyp.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-tesla.netlify.app/"><img src={process.env.PUBLIC_URL+"./tesla.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-pocketcoin.netlify.app/"><img src={process.env.PUBLIC_URL+"./pocketcoin.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-burgershouse.netlify.app/"><img src={process.env.PUBLIC_URL+"./burger.jpg"} alt="" /></a></div>
-                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-plants.netlify.app/"><img src={process.env.PUBLIC_URL+"./plants.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-sktgold.netlify.app/"><img src={process.env.PUBLIC_URL+"./gold.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-kindergarten.netlify.app/"><img src={process.env.PUBLIC_URL+"./altanvee.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-sktcards.netlify.app/"><img src={process.env.PUBLIC_URL+"./cards.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-netflix.netlify.app/"><img src={process.env.PUBLIC_URL+"./netflix.jpg"} alt="" /></a></div>
                                         <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdking-ecowebportals.netlify.app/"><img src={process.env.PUBLIC_URL+"./eco.jpg"} alt="" /></a></div>
-                                        <div className="col-lg-3 col-md-4 col-sm-6"><a href="https://bdkingvivagames.netlify.app/"><img src={process.env.PUBLIC_URL+"./viva.jpg"} alt="" /></a></div>
+                                       
                                     </div>
                                 </div>
                             <div className=" col-12">
